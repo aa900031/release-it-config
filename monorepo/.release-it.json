@@ -14,9 +14,9 @@
 	},
 	"git": {
 		"push": false,
-		"tagName": "${name}@${version}",
+		"tagName": "${npm.name}@${version}",
 		"commitsPath": "./",
-		"commitMessage": "chore(release): ${name} v${version}",
+		"commitMessage": "chore(release): ${npm.name} v${version}",
 		"requireCommits": true,
 		"requireCommitsFail": false
 	}
