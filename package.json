@@ -1,0 +1,39 @@
+{
+	"name": "@aa900031/release-it-config-root",
+	"type": "module",
+	"version": "0.0.0",
+	"private": true,
+	"packageManager": "pnpm@10.8.0",
+	"author": "zhong666 <hi@zhong666.me>",
+	"license": "MIT",
+	"homepage": "https://github.com/aa900031/release-it-config#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aa900031/release-it-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/aa900031/release-it-config/issues"
+	},
+	"keywords": [
+		"release-it",
+		"release-config"
+	],
+	"sideEffects": false,
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"release": "release-it --ci",
+		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint"
+	},
+	"devDependencies": {
+		"@aa900031/eslint-config": "^3.1.0",
+		"@release-it/conventional-changelog": "^10.0.0",
+		"conventional-changelog-unjs": "^1.0.0",
+		"eslint": "^9.24.0",
+		"release-it": "https://pkg.pr.new/release-it@1ef2e54"
+	}
+}
