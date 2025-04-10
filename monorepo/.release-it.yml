@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/release-it/release-it/refs/heads/main/schema/release-it.json
+
+extends: "../base"
+plugins:
+  "@release-it/conventional-changelog":
+    path: "./"
+    gitRawCommitsOpts:
+      path: "./"
+git:
+  tagName: "${npm.name}@${version}"
+  commitMessage: 'chore(release): ${npm.name} v${version}'
+  commitsPath: "./"
+  requireCommits: true
+  requireCommitsFail: false
