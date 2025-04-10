@@ -7,16 +7,17 @@ settings:
 importers:
 
   .:
-    devDependencies:
-      '@aa900031/eslint-config':
-        specifier: ^3.1.0
-        version: 3.1.0(eslint@9.24.0(jiti@2.4.2))
+    dependencies:
       '@release-it/conventional-changelog':
         specifier: ^10.0.0
         version: 10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@https://pkg.pr.new/release-it@1ef2e54)
       conventional-changelog-unjs:
         specifier: ^1.0.0
         version: 1.0.0(conventional-changelog@6.0.0(conventional-commits-filter@5.0.0))
+    devDependencies:
+      '@aa900031/eslint-config':
+        specifier: ^3.1.0
+        version: 3.1.0(eslint@9.24.0(jiti@2.4.2))
       eslint:
         specifier: ^9.24.0
         version: 9.24.0(jiti@2.4.2)
