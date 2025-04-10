@@ -23,8 +23,5 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
 
-      - name: Build packages
-        run: pnpm run build
-
       - name: Publish to pkg.pr.new
         run: pnpx pkg-pr-new publish --pnpm
