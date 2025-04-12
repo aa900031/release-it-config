@@ -19,11 +19,12 @@
 	],
 	"sideEffects": false,
 	"exports": {
-		".": "./.release-it.yaml",
+		".": "./.release-it.yml",
 		"./base": "./base/.release-it.yml",
 		"./monorepo": "./monorepo/.release-it.yml"
 	},
 	"files": [
+		".release-it.yml",
 		"base",
 		"monorepo"
 	],
