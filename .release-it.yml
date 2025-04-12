@@ -1,3 +1,3 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/release-it/release-it/refs/heads/main/schema/release-it.json
 
-extends: ./monorepo
+extends: ./base
