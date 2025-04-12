@@ -18,6 +18,10 @@
 		"release-config"
 	],
 	"sideEffects": false,
+	"exports": {
+		"base": "./base/.release-it.yml",
+		"monorepo": "./monorepo/.release-it.yml"
+	},
 	"files": [
 		"base",
 		"monorepo"
