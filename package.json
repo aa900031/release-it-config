@@ -19,6 +19,7 @@
 	],
 	"sideEffects": false,
 	"exports": {
+		".": "./.release-it.yaml",
 		"./base": "./base/.release-it.yml",
 		"./monorepo": "./monorepo/.release-it.yml"
 	},

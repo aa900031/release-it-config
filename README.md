@@ -25,7 +25,7 @@ And use it with **package name** in your release-it configuration file.
 
 ```json
 {
-	"extends": "@aa900031/release-it-config/base"
+	"extends": "@aa900031/release-it-config"
 }
 ```
 
@@ -40,10 +40,10 @@ pnpm add -D @release-it/conventional-changelog conventional-changelog-unjs
 And use it with **github schema** in your release-it configuration file.
 
 > [!NOTE]
-> If you are use it in the monorepo, you could use `@aa900031/release-it-config/monorepo`
+> If you are use it in the monorepo, you could use `github:aa900031/release-it-config/monorepo`
 
 ```json
 {
-	"extends": "github:aa900031/release-it-config/base"
+	"extends": "github:aa900031/release-it-config"
 }
 ```
