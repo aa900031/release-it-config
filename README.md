@@ -2,6 +2,9 @@
 
 > My configuration of [release-it](https://github.com/release-it/release-it)
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+
 ## Features
 
 - [unjs/changelogen](https://github.com/unjs/changelogen) style's changelog
@@ -47,3 +50,10 @@ And use it with **github schema** in your release-it configuration file.
 	"extends": "github:aa900031/release-it-config"
 }
 ```
+
+<!-- Link Resources -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@aa900031/release-it-config?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-version-href]: https://npmjs.com/package/@aa900031/release-it-config
+[npm-downloads-src]: https://img.shields.io/npm/dm/@aa900031/release-it-config?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-downloads-href]: https://npmjs.com/package/@aa900031/release-it-config
