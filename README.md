@@ -1,9 +1,9 @@
 # @aa900031/release-it-config
 
-> My configuration of [release-it](https://github.com/release-it/release-it)
-
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+
+> My configuration of [release-it](https://github.com/release-it/release-it)
 
 ## Features
 
