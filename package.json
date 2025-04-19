@@ -41,7 +41,7 @@
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "^3.1.0",
-		"eslint": "^9.24.0",
+		"eslint": "^9.25.0",
 		"release-it": "https://pkg.pr.new/release-it@1ef2e54"
 	}
 }
