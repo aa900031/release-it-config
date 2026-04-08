@@ -36,8 +36,8 @@
 		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint"
 	},
 	"dependencies": {
-		"@release-it/conventional-changelog": "^10.0.5",
-		"conventional-changelog-unjs": "^1.0.0"
+		"@release-it/conventional-changelog": "^10.0.6",
+		"conventional-changelog-unjs": "^1.0.1"
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "^6.0.0",
