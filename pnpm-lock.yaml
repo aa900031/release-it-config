@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@release-it/conventional-changelog':
-        specifier: ^10.0.5
-        version: 10.0.5(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)(release-it@19.2.4(@types/node@22.19.11))
+        specifier: ^10.0.6
+        version: 10.0.6(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)(release-it@19.2.4)
       conventional-changelog-unjs:
-        specifier: ^1.0.0
-        version: 1.0.0(conventional-changelog@7.1.1(conventional-commits-filter@5.0.0))
+        specifier: ^1.0.1
+        version: 1.0.1(conventional-changelog@7.2.0(conventional-commits-filter@5.0.0))
     devDependencies:
       '@aa900031/eslint-config':
         specifier: ^6.0.0
@@ -23,7 +23,7 @@ importers:
         version: 9.39.2(jiti@2.6.1)
       release-it:
         specifier: ^19.2.4
-        version: 19.2.4(@types/node@22.19.11)
+        version: 19.2.4
 
 packages:
 
@@ -109,12 +109,12 @@ packages:
   '@clack/prompts@1.0.1':
     resolution: {integrity: sha512-/42G73JkuYdyWZ6m8d/CJtBrGl1Hegyc7Fy78m5Ob+jF85TOUmLR5XLce/U3LxYAw0kJ8CT5aI99RIvPHcGp/Q==}
 
-  '@conventional-changelog/git-client@2.5.1':
-    resolution: {integrity: sha512-lAw7iA5oTPWOLjiweb7DlGEMDEvzqzLLa6aWOly2FSZ64IwLE8T458rC+o+WvI31Doz6joM7X2DoNog7mX8r4A==}
+  '@conventional-changelog/git-client@2.7.0':
+    resolution: {integrity: sha512-j7A8/LBEQ+3rugMzPXoKYzyUPpw/0CBQCyvtTR7Lmu4olG4yRC/Tfkq79Mr3yuPs0SUitlO2HwGP3gitMJnRFw==}
     engines: {node: '>=18'}
     peerDependencies:
       conventional-commits-filter: ^5.0.0
-      conventional-commits-parser: ^6.1.0
+      conventional-commits-parser: ^6.4.0
     peerDependenciesMeta:
       conventional-commits-filter:
         optional: true
@@ -426,18 +426,22 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@release-it/conventional-changelog@10.0.5':
-    resolution: {integrity: sha512-Dxul3YlUsDLbIg+aR6T0QR/VyKwuJNR3GZM8mKVEwFO8GpH2H5vgnN7kacEvq/Qk5puDadOVbhbUq/KBjraemQ==}
+  '@release-it/conventional-changelog@10.0.6':
+    resolution: {integrity: sha512-aUb0IkcsBTMcOH5PPQ9Jv9lEOOVu2+rSgkE1ny+dzsTziQm2BhDRAtaFK/dw/HflthuXMWrqhhyfJhAV1AOEPQ==}
     engines: {node: ^20.12.0 || >=22.0.0}
     peerDependencies:
       release-it: ^18.0.0 || ^19.0.0
 
-  '@simple-libs/child-process-utils@1.0.1':
-    resolution: {integrity: sha512-3nWd8irxvDI6v856wpPCHZ+08iQR0oHTZfzAZmnbsLzf+Sf1odraP6uKOHDZToXq3RPRV/LbqGVlSCogm9cJjg==}
+  '@simple-libs/child-process-utils@1.0.2':
+    resolution: {integrity: sha512-/4R8QKnd/8agJynkNdJmNw2MBxuFTRcNFnE5Sg/G+jkSsV8/UBgULMzhizWWW42p8L5H7flImV2ATi79Ove2Tw==}
     engines: {node: '>=18'}
 
-  '@simple-libs/stream-utils@1.1.0':
-    resolution: {integrity: sha512-6rsHTjodIn/t90lv5snQjRPVtOosM7Vp0AKdrObymq45ojlgVwnpAqdc+0OBBrpEiy31zZ6/TKeIVqV1HwvnuQ==}
+  '@simple-libs/hosted-git-info@1.0.2':
+    resolution: {integrity: sha512-aAmGQdMH+ZinytKuA2832u0ATeOFNYNk4meBEXtB5xaPotUgggYNhq5tYU/v17wEbmTW5P9iHNqNrFyrhnqBAg==}
+    engines: {node: '>=18'}
+
+  '@simple-libs/stream-utils@1.2.0':
+    resolution: {integrity: sha512-KxXvfapcixpz6rVEB6HPjOUZT22yN6v0vI0urQSk1L8MlEWPDFCZkhw2xmkyoTGYeFw7tWTZd7e3lVzRZRN/EA==}
     engines: {node: '>=18'}
 
   '@sindresorhus/base62@1.0.0':
@@ -476,9 +480,6 @@ packages:
 
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
-
-  '@types/node@22.19.11':
-    resolution: {integrity: sha512-BH7YwL6rA93ReqeQS1c4bsPpcfOmJasG+Fkr6Y59q83f9M1WcBRHR2vM+P9eOisYRcN3ujQoiZY8uk5W+1WL8w==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -763,30 +764,30 @@ packages:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  conventional-changelog-angular@8.1.0:
-    resolution: {integrity: sha512-GGf2Nipn1RUCAktxuVauVr1e3r8QrLP/B0lEUsFktmGqc3ddbQkhoJZHJctVU829U1c6mTSWftrVOCHaL85Q3w==}
+  conventional-changelog-angular@8.3.1:
+    resolution: {integrity: sha512-6gfI3otXK5Ph5DfCOI1dblr+kN3FAm5a97hYoQkqNZxOaYa5WKfXH+AnpsmS+iUH2mgVC2Cg2Qw9m5OKcmNrIg==}
     engines: {node: '>=18'}
 
-  conventional-changelog-conventionalcommits@9.1.0:
-    resolution: {integrity: sha512-MnbEysR8wWa8dAEvbj5xcBgJKQlX/m0lhS8DsyAAWDHdfs2faDJxTgzRYlRYpXSe7UiKrIIlB4TrBKU9q9DgkA==}
+  conventional-changelog-conventionalcommits@9.3.1:
+    resolution: {integrity: sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw==}
     engines: {node: '>=18'}
 
   conventional-changelog-preset-loader@5.0.0:
     resolution: {integrity: sha512-SetDSntXLk8Jh1NOAl1Gu5uLiCNSYenB5tm0YVeZKePRIgDW9lQImromTwLa3c/Gae298tsgOM+/CYT9XAl0NA==}
     engines: {node: '>=18'}
 
-  conventional-changelog-unjs@1.0.0:
-    resolution: {integrity: sha512-MdcNk+AyACxboL9QKXtFOLQrOs9f7MRvc3yo8WGk5VhWm14XMguSo1mYB9yknUm9hP8hsfVkch9dHFHqS+TubA==}
+  conventional-changelog-unjs@1.0.1:
+    resolution: {integrity: sha512-JHf6CGa3zo1D3n3jQ6vAl9nsuOV/MiW0LxcBaec7yr+5BIKQSD+YEdv2mSO8COjdbKerpYMRL28WuQVgTZxyyw==}
     peerDependencies:
-      conventional-changelog: ^5.1.0 || ^6.0.0
+      conventional-changelog: ^6.0.0 || ^7.0.0
 
-  conventional-changelog-writer@8.2.0:
-    resolution: {integrity: sha512-Y2aW4596l9AEvFJRwFGJGiQjt2sBYTjPD18DdvxX9Vpz0Z7HQ+g1Z+6iYDAm1vR3QOJrDBkRHixHK/+FhkR6Pw==}
+  conventional-changelog-writer@8.4.0:
+    resolution: {integrity: sha512-HHBFkk1EECxxmCi4CTu091iuDpQv5/OavuCUAuZmrkWpmYfyD816nom1CvtfXJ/uYfAAjavgHvXHX291tSLK8g==}
     engines: {node: '>=18'}
     hasBin: true
 
-  conventional-changelog@7.1.1:
-    resolution: {integrity: sha512-rlqa8Lgh8YzT3Akruk05DR79j5gN9NCglHtJZwpi6vxVeaoagz+84UAtKQj/sT+RsfGaZkt3cdFCjcN6yjr5sw==}
+  conventional-changelog@7.2.0:
+    resolution: {integrity: sha512-BEdgG+vPl53EVlTTk9sZ96aagFp0AQ5pw/ggiQMy2SClLbTo1r0l+8dSg79gkLOO5DS1Lswuhp5fWn6RwE+ivg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -796,6 +797,11 @@ packages:
 
   conventional-commits-parser@6.2.1:
     resolution: {integrity: sha512-20pyHgnO40rvfI0NGF/xiEoFMkXDtkF8FwHvk5BokoFoCuTQRI8vrNCNFWUOfuolKJMm1tPCHc8GgYEtr1XRNA==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  conventional-commits-parser@6.4.0:
+    resolution: {integrity: sha512-tvRg7FIBNlyPzjdG8wWRlPHQJJHI7DylhtRGeU9Lq+JuoPh5BKpPRX83ZdLrvXuOSu5Eo/e7SzOQhU4Hd2Miuw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1262,8 +1268,8 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
-  handlebars@4.7.8:
-    resolution: {integrity: sha512-vafaFqs8MZkRrSX7sFVUdo3ap/eNiLnb4IakshzvP56X5Nr1iGKAIqdX6tMlm6HcNRIkr6AxO5jFEoJzzpT8aQ==}
+  handlebars@4.7.9:
+    resolution: {integrity: sha512-4E71E0rpOaQuJR2A3xDZ+GM1HyWYv1clR58tC8emQNeQe3RH7MAzSbat+V0wG78LQBo6m6bzSG/L4pBuCsgnUQ==}
     engines: {node: '>=0.4.7'}
     hasBin: true
 
@@ -1969,6 +1975,9 @@ packages:
   spdx-license-ids@3.0.22:
     resolution: {integrity: sha512-4PRT4nh1EImPbt2jASOKHX7PB7I+e4IWNLvkKFDxNhJlfjbYlleYQh285Z/3mPTHSAK/AvdMmw5BNNuYH8ShgQ==}
 
+  spdx-license-ids@3.0.23:
+    resolution: {integrity: sha512-CWLcCCH7VLu13TgOH+r8p1O/Znwhqv/dbb6lqWy67G+pT1kHmeD/+V36AVb/vq8QMIQwVShJ6Ssl5FPh0fuSdw==}
+
   stdin-discarder@0.2.2:
     resolution: {integrity: sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ==}
     engines: {node: '>=18'}
@@ -2064,9 +2073,6 @@ packages:
     resolution: {integrity: sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ==}
     engines: {node: '>=0.8.0'}
     hasBin: true
-
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
   undici@6.23.0:
     resolution: {integrity: sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==}
@@ -2281,14 +2287,23 @@ snapshots:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@conventional-changelog/git-client@2.5.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)':
+  '@conventional-changelog/git-client@2.7.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)':
     dependencies:
-      '@simple-libs/child-process-utils': 1.0.1
-      '@simple-libs/stream-utils': 1.1.0
+      '@simple-libs/child-process-utils': 1.0.2
+      '@simple-libs/stream-utils': 1.2.0
       semver: 7.7.4
     optionalDependencies:
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.2.1
+
+  '@conventional-changelog/git-client@2.7.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)':
+    dependencies:
+      '@simple-libs/child-process-utils': 1.0.2
+      '@simple-libs/stream-utils': 1.2.0
+      semver: 7.7.4
+    optionalDependencies:
+      conventional-commits-filter: 5.0.0
+      conventional-commits-parser: 6.4.0
 
   '@es-joy/jsdoccomment@0.78.0':
     dependencies:
@@ -2408,128 +2423,100 @@ snapshots:
 
   '@inquirer/ansi@1.0.2': {}
 
-  '@inquirer/checkbox@4.3.2(@types/node@22.19.11)':
+  '@inquirer/checkbox@4.3.2':
     dependencies:
       '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
+      '@inquirer/core': 10.3.2
       '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
+      '@inquirer/type': 3.0.10
       yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 22.19.11
 
-  '@inquirer/confirm@5.1.21(@types/node@22.19.11)':
+  '@inquirer/confirm@5.1.21':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
-    optionalDependencies:
-      '@types/node': 22.19.11
+      '@inquirer/core': 10.3.2
+      '@inquirer/type': 3.0.10
 
-  '@inquirer/core@10.3.2(@types/node@22.19.11)':
+  '@inquirer/core@10.3.2':
     dependencies:
       '@inquirer/ansi': 1.0.2
       '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
+      '@inquirer/type': 3.0.10
       cli-width: 4.1.0
       mute-stream: 2.0.0
       signal-exit: 4.1.0
       wrap-ansi: 6.2.0
       yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 22.19.11
 
-  '@inquirer/editor@4.2.23(@types/node@22.19.11)':
+  '@inquirer/editor@4.2.23':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/external-editor': 1.0.3(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
-    optionalDependencies:
-      '@types/node': 22.19.11
+      '@inquirer/core': 10.3.2
+      '@inquirer/external-editor': 1.0.3
+      '@inquirer/type': 3.0.10
 
-  '@inquirer/expand@4.0.23(@types/node@22.19.11)':
+  '@inquirer/expand@4.0.23':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
+      '@inquirer/core': 10.3.2
+      '@inquirer/type': 3.0.10
       yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 22.19.11
 
-  '@inquirer/external-editor@1.0.3(@types/node@22.19.11)':
+  '@inquirer/external-editor@1.0.3':
     dependencies:
       chardet: 2.1.1
       iconv-lite: 0.7.2
-    optionalDependencies:
-      '@types/node': 22.19.11
 
   '@inquirer/figures@1.0.15': {}
 
-  '@inquirer/input@4.3.1(@types/node@22.19.11)':
+  '@inquirer/input@4.3.1':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
-    optionalDependencies:
-      '@types/node': 22.19.11
+      '@inquirer/core': 10.3.2
+      '@inquirer/type': 3.0.10
 
-  '@inquirer/number@3.0.23(@types/node@22.19.11)':
+  '@inquirer/number@3.0.23':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
-    optionalDependencies:
-      '@types/node': 22.19.11
+      '@inquirer/core': 10.3.2
+      '@inquirer/type': 3.0.10
 
-  '@inquirer/password@4.0.23(@types/node@22.19.11)':
+  '@inquirer/password@4.0.23':
     dependencies:
       '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
-    optionalDependencies:
-      '@types/node': 22.19.11
+      '@inquirer/core': 10.3.2
+      '@inquirer/type': 3.0.10
 
-  '@inquirer/prompts@7.10.1(@types/node@22.19.11)':
+  '@inquirer/prompts@7.10.1':
     dependencies:
-      '@inquirer/checkbox': 4.3.2(@types/node@22.19.11)
-      '@inquirer/confirm': 5.1.21(@types/node@22.19.11)
-      '@inquirer/editor': 4.2.23(@types/node@22.19.11)
-      '@inquirer/expand': 4.0.23(@types/node@22.19.11)
-      '@inquirer/input': 4.3.1(@types/node@22.19.11)
-      '@inquirer/number': 3.0.23(@types/node@22.19.11)
-      '@inquirer/password': 4.0.23(@types/node@22.19.11)
-      '@inquirer/rawlist': 4.1.11(@types/node@22.19.11)
-      '@inquirer/search': 3.2.2(@types/node@22.19.11)
-      '@inquirer/select': 4.4.2(@types/node@22.19.11)
-    optionalDependencies:
-      '@types/node': 22.19.11
+      '@inquirer/checkbox': 4.3.2
+      '@inquirer/confirm': 5.1.21
+      '@inquirer/editor': 4.2.23
+      '@inquirer/expand': 4.0.23
+      '@inquirer/input': 4.3.1
+      '@inquirer/number': 3.0.23
+      '@inquirer/password': 4.0.23
+      '@inquirer/rawlist': 4.1.11
+      '@inquirer/search': 3.2.2
+      '@inquirer/select': 4.4.2
 
-  '@inquirer/rawlist@4.1.11(@types/node@22.19.11)':
+  '@inquirer/rawlist@4.1.11':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
+      '@inquirer/core': 10.3.2
+      '@inquirer/type': 3.0.10
       yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 22.19.11
 
-  '@inquirer/search@3.2.2(@types/node@22.19.11)':
+  '@inquirer/search@3.2.2':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
+      '@inquirer/core': 10.3.2
       '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
+      '@inquirer/type': 3.0.10
       yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 22.19.11
 
-  '@inquirer/select@4.4.2(@types/node@22.19.11)':
+  '@inquirer/select@4.4.2':
     dependencies:
       '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
+      '@inquirer/core': 10.3.2
       '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
+      '@inquirer/type': 3.0.10
       yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 22.19.11
 
-  '@inquirer/type@3.0.10(@types/node@22.19.11)':
-    optionalDependencies:
-      '@types/node': 22.19.11
+  '@inquirer/type@3.0.10': {}
 
   '@nodeutils/defaults-deep@1.1.0':
     dependencies:
@@ -2609,28 +2596,27 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@release-it/conventional-changelog@10.0.5(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)(release-it@19.2.4(@types/node@22.19.11))':
+  '@release-it/conventional-changelog@10.0.6(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)(release-it@19.2.4)':
     dependencies:
-      '@conventional-changelog/git-client': 2.5.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)
+      '@conventional-changelog/git-client': 2.7.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)
       concat-stream: 2.0.0
-      conventional-changelog: 7.1.1(conventional-commits-filter@5.0.0)
-      conventional-changelog-angular: 8.1.0
-      conventional-changelog-conventionalcommits: 9.1.0
+      conventional-changelog: 7.2.0(conventional-commits-filter@5.0.0)
+      conventional-changelog-angular: 8.3.1
+      conventional-changelog-conventionalcommits: 9.3.1
       conventional-recommended-bump: 11.2.0
-      release-it: 19.2.4(@types/node@22.19.11)
+      release-it: 19.2.4
       semver: 7.7.4
     transitivePeerDependencies:
       - conventional-commits-filter
       - conventional-commits-parser
 
-  '@simple-libs/child-process-utils@1.0.1':
+  '@simple-libs/child-process-utils@1.0.2':
     dependencies:
-      '@simple-libs/stream-utils': 1.1.0
-      '@types/node': 22.19.11
+      '@simple-libs/stream-utils': 1.2.0
 
-  '@simple-libs/stream-utils@1.1.0':
-    dependencies:
-      '@types/node': 22.19.11
+  '@simple-libs/hosted-git-info@1.0.2': {}
+
+  '@simple-libs/stream-utils@1.2.0': {}
 
   '@sindresorhus/base62@1.0.0': {}
 
@@ -2667,10 +2653,6 @@ snapshots:
       '@types/unist': 3.0.3
 
   '@types/ms@2.1.0': {}
-
-  '@types/node@22.19.11':
-    dependencies:
-      undici-types: 6.21.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -2939,37 +2921,39 @@ snapshots:
 
   consola@3.4.2: {}
 
-  conventional-changelog-angular@8.1.0:
+  conventional-changelog-angular@8.3.1:
     dependencies:
       compare-func: 2.0.0
 
-  conventional-changelog-conventionalcommits@9.1.0:
+  conventional-changelog-conventionalcommits@9.3.1:
     dependencies:
       compare-func: 2.0.0
 
   conventional-changelog-preset-loader@5.0.0: {}
 
-  conventional-changelog-unjs@1.0.0(conventional-changelog@7.1.1(conventional-commits-filter@5.0.0)):
+  conventional-changelog-unjs@1.0.1(conventional-changelog@7.2.0(conventional-commits-filter@5.0.0)):
     dependencies:
       compare-func: 2.0.0
-      conventional-changelog: 7.1.1(conventional-commits-filter@5.0.0)
+      conventional-changelog: 7.2.0(conventional-commits-filter@5.0.0)
       defu: 6.1.4
       scule: 1.3.0
 
-  conventional-changelog-writer@8.2.0:
+  conventional-changelog-writer@8.4.0:
     dependencies:
+      '@simple-libs/stream-utils': 1.2.0
       conventional-commits-filter: 5.0.0
-      handlebars: 4.7.8
+      handlebars: 4.7.9
       meow: 13.2.0
       semver: 7.7.4
 
-  conventional-changelog@7.1.1(conventional-commits-filter@5.0.0):
+  conventional-changelog@7.2.0(conventional-commits-filter@5.0.0):
     dependencies:
-      '@conventional-changelog/git-client': 2.5.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)
+      '@conventional-changelog/git-client': 2.7.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)
+      '@simple-libs/hosted-git-info': 1.0.2
       '@types/normalize-package-data': 2.4.4
       conventional-changelog-preset-loader: 5.0.0
-      conventional-changelog-writer: 8.2.0
-      conventional-commits-parser: 6.2.1
+      conventional-changelog-writer: 8.4.0
+      conventional-commits-parser: 6.4.0
       fd-package-json: 2.0.0
       meow: 13.2.0
       normalize-package-data: 7.0.1
@@ -2982,9 +2966,14 @@ snapshots:
     dependencies:
       meow: 13.2.0
 
+  conventional-commits-parser@6.4.0:
+    dependencies:
+      '@simple-libs/stream-utils': 1.2.0
+      meow: 13.2.0
+
   conventional-recommended-bump@11.2.0:
     dependencies:
-      '@conventional-changelog/git-client': 2.5.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)
+      '@conventional-changelog/git-client': 2.7.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)
       conventional-changelog-preset-loader: 5.0.0
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.2.1
@@ -3521,7 +3510,7 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  handlebars@4.7.8:
+  handlebars@4.7.9:
     dependencies:
       minimist: 1.2.8
       neo-async: 2.6.2
@@ -3573,17 +3562,15 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  inquirer@12.11.1(@types/node@22.19.11):
+  inquirer@12.11.1:
     dependencies:
       '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@22.19.11)
-      '@inquirer/prompts': 7.10.1(@types/node@22.19.11)
-      '@inquirer/type': 3.0.10(@types/node@22.19.11)
+      '@inquirer/core': 10.3.2
+      '@inquirer/prompts': 7.10.1
+      '@inquirer/type': 3.0.10
       mute-stream: 2.0.0
       run-async: 4.0.6
       rxjs: 7.8.2
-    optionalDependencies:
-      '@types/node': 22.19.11
 
   ip-address@10.1.0: {}
 
@@ -4300,7 +4287,7 @@ snapshots:
     dependencies:
       jsesc: 3.1.0
 
-  release-it@19.2.4(@types/node@22.19.11):
+  release-it@19.2.4:
     dependencies:
       '@nodeutils/defaults-deep': 1.1.0
       '@octokit/rest': 22.0.1
@@ -4310,7 +4297,7 @@ snapshots:
       ci-info: 4.4.0
       eta: 4.5.0
       git-url-parse: 16.1.0
-      inquirer: 12.11.1(@types/node@22.19.11)
+      inquirer: 12.11.1
       issue-parser: 7.0.1
       lodash.merge: 4.6.2
       mime-types: 3.0.2
@@ -4401,14 +4388,14 @@ snapshots:
   spdx-correct@3.2.0:
     dependencies:
       spdx-expression-parse: 3.0.1
-      spdx-license-ids: 3.0.22
+      spdx-license-ids: 3.0.23
 
   spdx-exceptions@2.5.0: {}
 
   spdx-expression-parse@3.0.1:
     dependencies:
       spdx-exceptions: 2.5.0
-      spdx-license-ids: 3.0.22
+      spdx-license-ids: 3.0.23
 
   spdx-expression-parse@4.0.0:
     dependencies:
@@ -4416,6 +4403,8 @@ snapshots:
       spdx-license-ids: 3.0.22
 
   spdx-license-ids@3.0.22: {}
+
+  spdx-license-ids@3.0.23: {}
 
   stdin-discarder@0.2.2: {}
 
@@ -4494,8 +4483,6 @@ snapshots:
 
   uglify-js@3.19.3:
     optional: true
-
-  undici-types@6.21.0: {}
 
   undici@6.23.0: {}
 
