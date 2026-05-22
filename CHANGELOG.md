@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v0.1.2
+
+[compare changes](https://github.com/aa900031/release-it-config/compare/v0.1.1...v0.1.2)
+
+### 🏡 Chore
+
+-  **deps:** Update deps ([0fba270](https://github.com/aa900031/release-it-config/commit/0fba270a20f69f09c829a9a3533c05ff8ef91a6e))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v0.1.1
 
 [compare changes](https://github.com/aa900031/release-it-config/compare/v0.1.0...v0.1.1)
