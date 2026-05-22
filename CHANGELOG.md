@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.0.0
+
+[compare changes](https://github.com/aa900031/release-it-config/compare/v0.1.2...v1.0.0)
+
+### 🏡 Chore
+
+-  **deps:** ⚠️ Update release-it to v20 ([c8c0551](https://github.com/aa900031/release-it-config/commit/c8c0551f11fc1fe8a8e66fcbd2a41a9cc53a08f1))
+-  Update nodejs to v24 ([affc33b](https://github.com/aa900031/release-it-config/commit/affc33b3bb6f01b377d9ebce6d4bdddfb6b22c51))
+-  Update pnpm to v11 ([5886040](https://github.com/aa900031/release-it-config/commit/5886040efabbfc5f7a22d980b8979f4eb9cc80e3))
+-  Update yaml schema references to local path ([56b101e](https://github.com/aa900031/release-it-config/commit/56b101eb14ce72c7c2b5b78c3e19a350fec98885))
+
+
+### ⚠️ Breaking Changes
+
+-  **deps:** update release-it to v20 ([c8c0551](https://github.com/aa900031/release-it-config/commit/c8c0551f11fc1fe8a8e66fcbd2a41a9cc53a08f1))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v0.1.2
 
 [compare changes](https://github.com/aa900031/release-it-config/compare/v0.1.1...v0.1.2)
