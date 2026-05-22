@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/release-it/release-it/refs/heads/main/schema/release-it.json
+# yaml-language-server: $schema=../node_modules/release-it/schema/release-it.json
 
 plugins:
   '@release-it/conventional-changelog':
