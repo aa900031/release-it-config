@@ -40,8 +40,8 @@
 		"conventional-changelog-unjs": "^1.0.1"
 	},
 	"devDependencies": {
-		"@aa900031/eslint-config": "^6.0.0",
-		"eslint": "^9.39.2",
-		"release-it": "^20.0.1"
+		"@aa900031/eslint-config": "^6.1.2",
+		"eslint": "^9.39.5",
+		"release-it": "^20.2.1"
 	}
 }
